@@ -1,0 +1,12 @@
+{
+    "discord": {
+        "token": "your self token goes here"
+    },
+
+    "mpd": {
+        "address": "127.0.0.1",
+	"port": 6600
+    },
+
+    "display": "%artist% - %title%"
+}
