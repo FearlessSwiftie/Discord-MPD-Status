@@ -13,6 +13,7 @@ A node script which pulls the currently playing artist and song from MPD and use
 * fetch your self token, you can find out how here: https://hydrabolt.gitbooks.io/using-discord-js/content/getting-started/creating-a-bot-account.html
 * edit and rename `auth-sample.json` to `auth.json` with the appropriate values in place
 * execute the script by typing `node main.js` in the script's directory
+* optionally, you can run the bash script provided by executing `./mpddiscord.sh`.
 
 #### Options:
 You can change out the display mode of your status by editing the `display` option in `auth.json`. Possible values are `%artist%`, `%title%`, and `%artist%`.
