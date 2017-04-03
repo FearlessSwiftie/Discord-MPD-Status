@@ -8,5 +8,6 @@
 	"port": 6600
     },
 
+    "defaultstatus" : "",
     "display": "%artist% - %title%"
 }

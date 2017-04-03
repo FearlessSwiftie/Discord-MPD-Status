@@ -53,7 +53,7 @@ function fetchStatus(callback) {
 function updateStatus() {
     fetchCurrentSong(song => {
         fetchStatus(npdata => {
-            var nowplaying = "life"; //this is what your status will set to when no song is playing
+            var nowplaying = config.defaultstatus; //this is what your status will set to when no song is playing
             if(npdata.state == "play")
                 nowplaying = parseSongData(song);
             script.user.setGame(nowplaying);

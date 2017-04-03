@@ -17,4 +17,4 @@ A node script which pulls the currently playing artist and song from MPD and use
 
 #### Options:
 * You can change out the display mode of your status by editing the `display` option in `auth.json`. Possible values are `%artist%`, `%title%`, and `%artist%`.
-* You can also edit the default status for when no song is playing in `main.js`. I have marked the line with a comment.
+* You can also edit the default status for when no song is playing by editing the `defaultstatus` in `auth.json`.
