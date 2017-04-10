@@ -2,7 +2,7 @@
 A node script which pulls the currently playing artist and song from MPD and uses it as your Discord status.
 
 ## Prerequisites:
-* node.js - https://nodejs.org/en/download/package-manager/
+* node.js (v6.10.0 minimum) - https://nodejs.org/en/download/package-manager/
 * discord.js - https://github.com/hydrabolt/discord.js/
 * mpd - https://www.npmjs.com/package/mpd
 
