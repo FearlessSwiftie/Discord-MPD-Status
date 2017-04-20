@@ -35,7 +35,7 @@ function parseSongData(info) {
 }
 
 function fetchCurrentSong(callback) {
-    mpdclient.sendCommand(mpd.cmd("currentsong", []), function(err, msg) {
+    mpdclient.sendCommand(mpd.cmd("currentsong", []), (err, msg) => {
         if(err)
             throw err;
         callback(mpd.parseKeyValueMessage(msg));
@@ -43,7 +43,7 @@ function fetchCurrentSong(callback) {
 }
 
 function fetchStatus(callback) {
-    mpdclient.sendCommand(mpd.cmd("status", []), function(err, msg) {
+    mpdclient.sendCommand(mpd.cmd("status", []), (err, msg) => {
         if(err)
             throw err;
          callback(mpd.parseKeyValueMessage(msg));
